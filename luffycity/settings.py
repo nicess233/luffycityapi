@@ -129,3 +129,5 @@ REST_FRAMEWORK = {
     "ALLOWED_VERSIONS":["v1","v2"],
     'PAGE_SIZE':1
 }
+
+LUFFYCITY_SHOPPING_CAR = "shopping_car_%s_%s"  #reids的键

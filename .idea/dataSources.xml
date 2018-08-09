@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="ad5338fc-7895-45fc-a83a-8d97cea43142">
+    <data-source source="LOCAL" name="db" uuid="a2583d9e-4372-472e-861a-08106f87460c">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\luffycity\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\luffy\luffycity\db.sqlite3</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
