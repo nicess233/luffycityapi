@@ -10,7 +10,7 @@ urlpatterns = [
     url(r"f/$",course.CourseOftenAskedQuestionViews.as_view()),
     url(r"g/$",course.CourseOutlineView.as_view()),
     url(r"h/$",course.CourseChapterView.as_view()),
-    url(r"shoppingcar/$",shoppingcar.ShopingCarView.as_view({"post":"create","put":"update","delete":"distroy"})),
+    url(r"shoppingcar/$",shoppingcar.ShopingCarView.as_view({"post":"create","put":"update","delete":"destroy","get":"list"})),
 ]
 
 # from rest_framework.routers import DefaultRouter

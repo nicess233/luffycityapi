@@ -1,9 +1,8 @@
 from django.test import TestCase
 
 # Create your tests here.
-nums = range(2,20)
-for i in nums:
-    nums = filter(lambda x:x==i or x % i,nums)
-print(nums)
-for i in nums:
-    print(i)
+import redis
+conn = redis.Redis(host="192.168.11.122",port=6379)
+
+conn.set("class_name","11")
+print(conn.get("class_name"))
